@@ -1,0 +1,107 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0;
+    margin: 0;
+}
+h1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+nav {
+    background-color: black; 
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.main-box {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 70%;
+}
+.box1 p {
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box2 img {
+    width: 200px;
+    height: auto;
+}
+.box2 {
+    padding: 15px;
+    display: flex;
+}
+.box3 p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: 400px;
+    margin: 0 auto;
+}
+.image1 img {
+    width: 350px;
+    height: auto;
+}
+.box4 {
+    padding: 15px;
+    display: flex;
+}
+.image1 p {
+    text-align: center;
+    font-size: 15px;
+}
+.image1 {
+    padding-inline: 10px;
+}
+.main-box1 {
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 650px;
+    width:30% ;
+}
+.box5 p {
+    text-align: center;
+    background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main {
+    margin: 25px;
+    display: flex;
+    gap: 15px;
+}
