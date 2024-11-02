@@ -105,3 +105,6 @@ main {
     display: flex;
     gap: 15px;
 }
+nav a:hover {
+    text-decoration: underline white;
+}
