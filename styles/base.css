@@ -108,3 +108,10 @@ main {
 nav a:hover {
     text-decoration: underline white;
 }
+body {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+}
