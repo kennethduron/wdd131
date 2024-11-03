@@ -116,3 +116,9 @@ body {
     justify-content: center;
     padding-left: 250px;
 }
+.box2 p {
+    line-height: 1.8;
+}
+.box4 p {
+    line-height: 1.8;
+}
