@@ -3,7 +3,7 @@ header, main, footer {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: 1rem;
-    background-color: 3e6f2ff;
+    background-color: lightblue;
 }
 main {
     display: grid;
