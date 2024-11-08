@@ -1,0 +1,27 @@
+@media only screen and (min-width: 500px) {
+    .main-picture{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figure img {
+        max-width: 100%;
+    }
+
+    main {
+        max-width: 1000px;
+        padding: 0 1rem;
+    }
+    header, nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    h2 {
+        padding: 1rem;
+    }
+    h1 {
+        display: flex;
+        align-items: center;
+    }
+}
