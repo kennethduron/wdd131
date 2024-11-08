@@ -58,7 +58,7 @@ footer p {
 }
 .navigation {
     list-style: none;
-    
+    display: none;
     max-width: 450px;
 }
 .navigation li {
@@ -89,7 +89,7 @@ nav {
 }
 .navigation a {}
 #menu::before {
-    content: "X";
+    content: "☰";
 }
 #menu {
     display: block;
