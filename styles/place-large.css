@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
     body {
         max-width: 1000px;
     }
@@ -47,7 +47,8 @@
     }
     .weather1 {
         display: flex;
-        align-items: center; 
+        align-items: center;
+        flex-direction: row; 
     }
     .weather1 p {
         font-size: 40px;
@@ -72,7 +73,7 @@
     }
     .weather1 img {
         width: 80px;
-        position: absolute;
+        position: static;
         left: 130px;
         top: 10px;
         bottom: 5px;
