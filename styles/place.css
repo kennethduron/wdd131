@@ -27,9 +27,8 @@ ul li {
     list-style: none;
     line-height: 2;
 }
-.weather p {
-    text-align: center;
-    font-size: 50px;
+.weather img {
+    width: 150px;
     padding-bottom: 1rem;
 }
 footer p {
@@ -51,4 +50,10 @@ img {
 body {
     max-width: 400px;
     margin: 0 auto;
+}
+.weather1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
