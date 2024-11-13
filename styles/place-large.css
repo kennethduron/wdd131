@@ -18,7 +18,6 @@
     .weather1 {
         background-color: green;
         display: flex;
-        justify-content: baseline;
         width: 250px;
     }
     img {
