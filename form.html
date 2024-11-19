@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form">
+    <meta name="author" content="Kenneth Duron">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <link rel="stylesheet" href="review.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="main1">
+            <h1>Product Review</h1>
+            <form method="get" action="review.html">
+                <fieldset>
+                    <legend>Product Name</legend>
+                    <label for="text"></label>
+                <select name="subject" id="subject" required>
+                    <option value="">Choose a Product</option>
+                    <option value="flux capacitor">flux capacitor</option>
+                    <option value="power laces">power laces</option>
+                    <option value="time circuits">time circuits</option>
+                    <option value="low voltage reactor">low voltage reactor</option>
+                    <option value="warp equalizer">warp equalizer</option>
+                </select>
+            </fieldset><br>
+
+                <fieldset>
+                    <legend>Overall Rating</legend>
+                    <div class="form1">
+                        <div class="form2" id="form3">
+                            <label for="✩">✩</label>
+                            <input type="radio" id="task" name="task" value="task">
+                        </div>
+                        <div class="form2">
+                            <label for="✩✩">✩✩</label>
+                            <input type="radio" id="task" name="task" value="task">
+                        </div>
+                        <div class="form2">
+                            <label for="✩✩✩">✩✩✩</label>
+                            <input type="radio"  id="task" name="task" value="task">
+                        </div>
+                        <div class="form2">
+                            <label for="✩✩✩✩">✩✩✩✩</label>
+                            <input type="radio" id="task" name="task" value="task">
+                        </div>
+                        <div class="form2">
+                            <label for="✩✩✩✩✩">✩✩✩✩✩</label>
+                            <input type="radio" id="task" name="task" value="task">
+                        </div>
+                    </div>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Date of installation</legend>
+                    <label for="date"></label>
+                    <input type="date" id="date" name="date" required>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Which features did you find useful in the product?<br>
+                        (Check all  that apply)
+                    </legend>
+                    <div class="checkbox1">
+                        <div class="checkbox2">
+                            <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                            <label for="durability" id="label1">Durability</label><br>
+                        </div>
+                        <div class="checkbox2">
+                            <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                            <label for="ease of use" id="label1">Ease of Use</label><br>
+                        </div>
+                        <div class="checkbox2">
+                            <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                            <label for="performance" id="label1">Performance</label><br>
+                        </div>
+                        <div class="checkbox2">
+                            <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                            <label for="design" id="label1">Design</label>
+                        </div>
+                    </div>
+                    </fieldset><br>
+                
+                <fieldset>
+                    <legend>Written Review (Optional)</legend>
+                    <textarea name="text" id="text"></textarea>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Your Name (Optional)</legend>
+                    <input type="text" id="text" name="text">
+                </fieldset>
+                <div class="button1">
+                    <button type="submit">Post Review</button>
+                </div>
+            </form>    
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <p>©2024 | Kenneth Asael Duron | Honduras</p>
+            <p id="lastModified">Last Modification: </p>
+        </div>
+    </footer>
+</body>
+</html>
