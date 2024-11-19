@@ -89,3 +89,15 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
 }
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 410px;
+}
+.thanks p {
+    text-align: center;
+    padding-top: 25px;
+    
+}
