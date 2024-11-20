@@ -8,7 +8,6 @@
     <title>Product Review</title>
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
-    <link rel="stylesheet" href="review.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
@@ -19,8 +18,7 @@
             <h1>Product Review</h1>
             <form method="get" action="review.html">
                 <fieldset>
-                    <legend>Product Name</legend>
-                    <label for="subject"></label>
+                    <label for="subject">Product Name</label><br>
                 <select name="subject" id="subject" required>
                     <option value="">Choose a Product</option>
                     <option value="flux capacitor">flux capacitor</option>
@@ -58,8 +56,7 @@
                 </fieldset><br>
 
                 <fieldset>
-                    <legend>Date of installation</legend>
-                    <label for="date"></label>
+                    <label for="date">Date of installation</label><br>
                     <input type="date" id="date" name="date" required>
                 </fieldset><br>
 
@@ -88,12 +85,12 @@
                     </fieldset><br>
                 
                 <fieldset>
-                    <legend>Written Review (Optional)</legend>
+                    <label for="text1">Written Review (Optional)</label><br>
                     <textarea name="text" id="text1"></textarea>
                 </fieldset><br>
 
                 <fieldset>
-                    <legend>Your Name (Optional)</legend>
+                    <label for="text">Your Name (Optional)</label><br>
                     <input type="text" id="text" name="text">
                 </fieldset>
 
