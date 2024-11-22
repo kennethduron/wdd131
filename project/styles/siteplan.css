@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.main1 {
+    max-width: 1000px;    
+}
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.images img {
+    border-radius: 15px;
+}
+h1 {
+    color: black;
+    background-color: rgb(168, 169, 173);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+header {
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    flex-direction: column;   
+    background-color:  #B0C4DE; 
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+}
+section {
+    border-radius: 10px;
+    padding: 1rem;
+    background-color:  #B0C4DE;
+}
+.schema-section {
+    border-radius: 10px;
+    padding: 1rem;
+    background-color:  #B0C4DE;
+}
+.typography {
+    border-radius: 10px;
+    padding: 1rem;
+    background-color:  #B0C4DE;
+}
+h3 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #A8A9AD;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+main {
+    background-color: #7DF9FF;
+}
+.wireframe {
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #B0C4DE;
+}
+.typography p a {
+    font-weight: bold;
+}
+.subtitle {
+    font-weight: bold;
+}
+
+.wireframe, .typography, section, header, .schema-section  {
+    box-shadow: 0 0 10px rgb(0,0,0, 0.35);
+}
+.desktop-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.desktop-images a {
+    color: black;
+}
+.mobile-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.mobile-images a {
+    color: black;
+}
