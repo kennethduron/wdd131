@@ -1,0 +1,103 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+}
+.form1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+fieldset {
+    border-style: none;
+}
+form {
+    border: 1px solid black;
+}
+.button1 {
+    display: flex;
+    justify-content: center;
+}
+form {
+    padding: 20px;
+    background-color: lightgray;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-inline: 70px;
+    margin-top: 25px;
+}
+button {
+    width: 370px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+select {
+    width: 360px;
+    padding: 5px;
+    font-size: 15px;
+}
+#date {
+    width: 350px;
+    padding: 5px;
+    font-size: 15px;
+}
+textarea {
+    width: 360px;
+    padding: 5px;
+    font-size: 15px;
+    height: 100px;
+}
+#text {
+    width: 360px;
+    padding: 5px;
+    font-size: 15px;
+    align-items: center;
+}
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+}
+.checkbox2 {
+    display: flex;
+    align-items: center;
+}
+#form3 {
+    display: flex;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 410px;
+}
+.thanks p {
+    text-align: center;
+    padding-top: 25px;
+    
+}

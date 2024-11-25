@@ -1,0 +1,84 @@
+@media only screen and (min-width: 500px) {
+    body {
+        max-width: 1000px;
+    }
+    h2 {
+        text-align: left;
+        color: white;
+        
+    }
+    ul li {
+        color: black;
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        align-items: start;
+    }
+    .weather1 {
+        background-color: green;
+        display: flex;
+        width: 250px;
+        height: 70px;
+    }
+    picture img {
+        width: 100%;
+    }
+    picture source {
+        position: relative;
+    }
+    .section1 {
+        position: absolute;
+        top: 160px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        align-items: end;
+    }
+    .table {
+        grid-row: 1/1;
+        grid-column: 1/1;
+    }
+    .weather {
+        grid-column:2/2;
+        grid-row: 2/3;
+        margin-right: 100px;
+    }
+    .weather1 {
+        display: flex;
+        align-items: center;
+        flex-direction: row; 
+    }
+    .weather1 p {
+        font-size: 40px;
+    }
+    .main-weather {
+        background-color: white;
+        width: 250px;
+        position: absolute;
+        margin-left: 700px;
+        margin-bottom: 250px;
+        padding: 10px;
+    }
+    .table h2 {
+        background-color: green;
+        width: 200px;
+    }
+    .table {
+        background-color: white;
+        width: 250px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    .weather1 img {
+        width: 80px;
+        position: static;
+        left: 130px;
+        top: 10px;
+        bottom: 5px;
+    }
+    .weather1 h2 {
+        
+    }
+}
