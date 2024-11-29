@@ -6,25 +6,73 @@
     <meta name="description" content="This page is made to see the two classes that they will cary out in this course">
     <meta name="author" content="Kenneth Duron">
     <title>Home</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large-page.css">
+    <script src="scripts/home.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,400;1,100&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <main>
         <header>
-            <img src="images/automation.webp" alt="automation logo">
+            <div class="header-content">
+                <img src="images/automation.jpg" alt="automation logo">
+                <a id="menu" href="#"></a>
+            </div>
             <nav>
-                <a href="about-us.html">About Us</a>
-                <a href="contact-us.html">Contact Us</a>
-                <a href="home.html">Home</a>
+                <div class="nav1">
+                    <ul class="navigation">
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="home.html">Home</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <section>
-            <h1>Automation</h1>
-            <p>The new technology is coming. Change your life learning Logo soft and CadeSimu</p>
+            <div class="subtitle">
+                <h1>AUTOMATION</h1>
+                <p>"The new technology is coming. Change your life learning Logo soft and Cade Simu"</p>
+            </div>
+            <picture>
+                <source srcset="images/electrical-automation1.webp" media="(min-width: 450px)">
+                <img src="images/electrical-automation.jpg" alt="automation" width="236" height="357">
+            </picture>
         </section>
-        
+        <div class="images1">
+            <figure>
+                <figcaption>
+                    <img src="images/logo-soft.svg" alt="Logo Soft"><br>Logo Soft
+                </figcaption>
+            </figure>
+            <figure>
+                <figcaption>
+                    <img src="images/automation-image.jpg" alt="Automation">
+                </figcaption>
+            </figure>
+            <figure>
+                <figcaption>
+                    <img src="images/cade-simu.webp" alt="Cade Simu"><br>Cade Simu
+                </figcaption>
+            </figure>
+        </div>
+        <footer>
+            <div class="footer1">
+                    <p id="contact">Phone number: +491746719058</p>
+                    <div class="modification1">
+                        <p>©2024 | Kenneth Duron Paz | Honduras</p>
+                        <p id="lastModified">Last Modification: </p>
+                    </div>
+                    <div class="images-footer">
+                        <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube"></a>
+                        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA"><img src="images/facebook.png" alt="facebook"></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><img src="images/gmail.webp" alt="gmail"></a>
+                    </div>
+            </div>
+        </footer>
     </main>
 </body>
 </html>

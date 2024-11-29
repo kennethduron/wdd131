@@ -1,0 +1,165 @@
+ :root {
+     --metallic-gray: #A8A9AD;
+     --light-steel-blue: #B0C4DE;
+     --electric-blue: #7DF9FF;
+ }
+
+ body {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Roboto", serif;
+ }
+
+ header img {
+     width: 150px;
+     height: auto;
+     border-radius: 75px;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: black;
+ }
+
+ nav a:hover {
+     text-decoration: underline var(--electric-blue);
+ }
+
+ header {
+     background-color: var(--metallic-gray);
+     padding: 1rem;
+
+ }
+
+ section {
+     text-align: center;
+     margin: 0;
+
+ }
+
+ section picture img {
+     width: 100%;
+     height: auto;
+ }
+
+ h1,
+ section p {
+     position: absolute;
+     background-color: var(--light-steel-blue);
+     padding: .5rem;
+     border-radius: 15px;
+     margin-left: 10%;
+     margin-right: 10%;
+     left: 0;
+     right: 0;
+     text-align: center;
+ }
+
+ h1 {
+     font-weight: bold;
+     font-size: 40px;
+     top: 300px;
+ }
+
+ section p {
+     font-size: 20px;
+     top: 400px;
+ }
+
+ .images1 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 2rem;
+     background-color: var(--electric-blue);
+     margin: 0;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+ }
+
+ figcaption img {
+     width: 350px;
+     height: auto;
+     border: 3px solid var(--light-steel-blue);
+     border-radius: 15px;
+     padding: .5rem;
+ }
+
+ figure figcaption {
+     text-align: center;
+     text-decoration: underline;
+ }
+
+ .footer1 p {
+     text-align: center;
+ }
+
+ .images-footer img {
+     width: 100px;
+     height: auto;
+ }
+
+ .images-footer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: .5rem;
+ }
+
+ footer {
+     background-color: var(--metallic-gray);
+     padding: 1rem;
+ }
+
+ #contact {
+     padding-bottom: 1rem;
+ }
+
+ ul li {
+     list-style: none;
+ }
+
+ nav {
+     display: none;
+ }
+
+ .navigation {
+     list-style: none;
+     max-width: 450px;
+ }
+
+ #menu.show::before {
+     content: "X";
+ }
+
+ nav.show {
+     display: block;
+ }
+
+ #menu::before {
+     content: "☰";
+ }
+
+ #menu {
+     display: block;
+     font-size: 2rem;
+     font-weight: 700;
+     text-decoration: none;
+     padding: .5rem .75rem;
+     background-color: #eee;
+     color: #000;
+ }
+
+ .header-content {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+.navigation {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+ 

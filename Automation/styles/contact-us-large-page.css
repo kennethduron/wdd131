@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1000px) {
+    h1, section p {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    nav {
+        display: flex;
+        align-items: center;
+    }
+    .navigation {
+        display: flex;
+        gap: 2rem;
+    }
+    #menu {
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a {
+        font-size: 25px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .images-footer {
+        display: flex;
+        flex-direction: row;
+    }
+    .modification1 p {
+        font-size: 20px;
+    }
+    #contact {
+        font-size: 20px;
+    }
+    .footer1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+}
