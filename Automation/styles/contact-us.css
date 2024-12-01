@@ -36,7 +36,7 @@ header {
 }
 
 .images-footer img {
-    width: 100px;
+    width: 60px;
     height: auto;
 }
 
@@ -102,3 +102,51 @@ nav.show {
    align-items: flex-end;
 }
 
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  form {
+    background-color: var(--electric-blue);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+input, select {
+    width: 300px;
+    height: 25px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+button {
+    width: 170px;
+    height: 40px;
+    font-size: 25px;
+}
+button:hover {
+    background-color: var(--light-steel-blue);
+}
+.background {
+    background-color: var(--light-steel-blue);
+}
