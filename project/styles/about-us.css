@@ -15,6 +15,7 @@ header img {
     width: 150px;
     height: auto;
     border-radius: 75px;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.35);
 }
 
 nav a {
@@ -103,50 +104,50 @@ nav.show {
 }
 
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-
-
-  form {
-    background-color: var(--electric-blue);
-    text-align: center;
+.mission-vision img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.35);
+}
+.mission-vision {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: 100%;
-  }
-  h1 {
-    text-align: center;
+}
+h2 {
     text-decoration: underline;
-  }
-input, select {
-    width: 300px;
-    height: 25px;
+    text-align: center;
 }
-textarea {
-    width: 300px;
-    height: 100px;
+.mission-vision p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
-button {
-    width: 170px;
-    height: 40px;
-    font-size: 25px;
+h1 {
+    text-align: center;
 }
-button:hover {
+.logo-images img {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0,0,0, 0.35);
+}
+.logo-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.section1 {
     background-color: var(--light-steel-blue);
-}
-.background {
-    background-color: var(--light-steel-blue);
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
 }
