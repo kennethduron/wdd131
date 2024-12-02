@@ -49,6 +49,11 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        height: 200px;
+    }
+    .logo-images img {
+        width: auto;
+        height: 100%;
     }
     #mission {
         display: flex;
