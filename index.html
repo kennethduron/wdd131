@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Kenneth Duron</title>
-    <link rel="stylesheet" href="styles/base.css">
+
     <meta name="author" content="Kenneth Duron">
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Kenneth Duron - Coding" />
+    <meta name="description" content="WDD 131 Dynamic Web Fundamentals course page by Kenneth Duron.">
+
+    <link rel="stylesheet" href="styles/base.css">
+
     <script src="scripts/getdates.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,400;1,100&display=swap"
@@ -16,69 +20,70 @@
 </head>
 
 <body>
-    <div class="body1">
 
-        <header>
-            <div class="title1">
-                <h1>WDD 131 - Dynamic Web Fundamentals - Kenneth Duron</h1>
+    <header>
+        <nav>
+            <a href="https://www.linkedin.com/in/kenneth-asael-dur%C3%B3n-paz-5824b32b5/">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/44?lang=spa&id=p4#p4">Scripture</a>
+            <a href="project/home.html">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>
+            <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span> - Kenneth Duron
+        </h1>
+
+        <!-- CARD 1 -->
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="about">
+                <p>
+                    My name is Kenneth. I was born in Honduras and my family is from Honduras as well.
+                    I am currently studying Web Frontend Development at Cumorah Academy.
+                    I enjoy spending time with my family, traveling, and learning new technologies.
+                </p>
+
+                <img src="images/kenneth.jpg" alt="Kenneth Duron">
             </div>
-            <nav>
-                <a href="https://www.linkedin.com/in/kenneth-asael-dur%C3%B3n-paz-5824b32b5/">LinkedIn</a>
-                <a href="https://byui.instructure.com/">I-Learn</a>
-                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/44?lang=spa&id=p4#p4">Scripture
-                </a>
-                <a href="project/home.html">Final Project</a>
-            </nav>
-        </header>
-        <main>
-            <div class="main-box">
-                <div class="box1">
-                    <h2>
-                        About Me
-                    </h2>
-                </div>
-                <div class="box2">
-                    <p>My name is Kenneth. I was born in Honduras and my family is from Honduras too. I am curently
-                        studying as a Web Fronted Developer at Cumorah Academy. I have four siblings and I live spend
-                        time with them. I love to travel and I love to learn new things.</p>
-                    <img src="images/kenneth.jpg" alt="Kenneth Duron">
-                </div>
-                <div class="box3">
-                    <p>Cortes, Honduras</p>
-                </div>
-                <div class="box4">
-                    <div class="image1">
-                        <img src="images/Honduras.jpg" alt="Honduras">
-                        <p>Official flag of Honduras</p>
-                    </div>
-                    <p>Honduras is the second largest country in Central America, following Nicaragua. Honduras has four
-                        distinct regions: the central highlands, Pacific lowlands, eastern Caribbean lowlands, and
-                        northern coastal plains and mountains.</p>
-                </div>
+
+            <h3>Cortes, Honduras</h3>
+
+            <div class="country">
+                <figure>
+                    <img src="images/honduras.jpg" alt="Flag of Honduras">
+                    <figcaption>Official flag of Honduras</figcaption>
+                </figure>
+
+                <p>
+                    Honduras is the second largest country in Central America, after Nicaragua.
+                    It has diverse regions including highlands, coastal plains, and Caribbean lowlands.
+                </p>
             </div>
-            <div class="main-box1">
-                <div class="box5">
-                    <h2>
-                        Web Dev Resoures
-                    </h2>
-                </div>
-                <div class="list">
-                    <ul>
-                        <li><a href="#">Dev. to Community</a></li>
-                        <li><a href="#">Smashing Magazine</a></li>
-                        <li><a href="#">CSS Tricks</a></li>
-                        <li><a href="#">W3 Schools</a></li>
-                        <li><a href="#">Udemy</a></li>
-                        <li><a href="#">Lorem Picsum Image Placeholder</a></li>
-                    </ul>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <p>©2024 | Kenneth Duron | Honduras</p>
-            <p id="lastModified">Last Modified: </p>
-        </footer>
-    </div>
+        </section>
+
+        <!-- CARD 2 -->
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+
+            <ul class="resources">
+                <li><a href="#">Dev.to Community</a></li>
+                <li><a href="#">Smashing Magazine</a></li>
+                <li><a href="#">CSS-Tricks</a></li>
+                <li><a href="#">W3Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+                <li><a href="#">Lorem Picsum</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p><span>©2024</span> | Kenneth Duron | Honduras</p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
+
 </body>
 
 </html>

@@ -1,125 +1,118 @@
-*{
-    border: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1 {
-    color: white;
+
+body {
+    max-width: 1100px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+header {
     background-color: blue;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
+
 nav {
-    background-color: black; 
-    text-align: center;
     display: flex;
     justify-content: space-around;
+    background-color: black;
 }
+
 nav a {
     color: white;
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
+    padding: 1rem;
 }
-.main-box {
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 70%;
-}
-.box1 h2 {
-    background-color: blue;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-.box2 img {
-    width: 200px;
-    height: auto;
-}
-.box2 {
-    padding: 15px;
-    display: flex;
-}
-.box3 p {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    border-bottom: 1px solid black;
-    width: 400px;
-    margin: 0 auto;
-}
-.image1 img {
-    width: 350px;
-    height: auto;
-}
-.box4 {
-    padding: 15px;
-    display: flex;
-}
-.image1 p {
-    text-align: center;
-    font-size: 15px;
-}
-.image1 {
-    padding-inline: 10px;
-}
-.main-box1 {
-    border: 1px solid black;
-    border-radius: 15px;
-    height: 650px;
-    width:30% ;
-}
-.box5 h2 {
-    text-align: center;
-    background-color: blue;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-.list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 240px;
-    padding-right: 20px;
-}
-footer {
-    text-align: center;
-    background-color: blue;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-main {
-    margin: 25px;
-    display: flex;
-    gap: 15px;
-}
+
 nav a:hover {
-    text-decoration: underline white;
+    text-decoration: underline;
 }
-body {
-    max-width: 1100px;
+
+/* MAIN GRID */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+/* MAIN TITLE */
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 2rem;
+}
+
+/* CARDS */
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card h2 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px 15px 0 0;
+}
+
+/* ABOUT SECTION */
+.about {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 220px;
-    font-family: "Roboto", serif;
-    font-weight: 400;
+    gap: 1rem;
+    padding: 1rem;
 }
-.box2 p {
-    line-height: 1.8;
+
+.about img {
+    width: 200px;
 }
-.box4 p {
-    line-height: 1.8;
+
+/* COUNTRY */
+.card h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.country {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.country img {
+    width: 300px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* RESOURCES */
+.resources {
+    list-style: none;
+    padding: 2rem;
+}
+
+.resources li {
+    margin: 0.7rem 0;
+}
+
+.resources a {
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
 }
