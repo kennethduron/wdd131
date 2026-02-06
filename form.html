@@ -1,56 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Form">
+    <meta name="description"
+        content="Submit a detailed product review including rating, installation date, and useful features through this interactive product review form.">
     <meta name="author" content="Kenneth Duron">
     <title>Product Review</title>
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,400;1,100&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
     <main>
         <div class="main1">
-            <h1>Product Review</h1>
+
             <form method="get" action="review.html">
                 <fieldset>
                     <label for="subject">Product Name</label><br>
-                <select name="subject" id="subject" required>
-                    <option value="">Choose a Product</option>
-                    <option value="flux capacitor">flux capacitor</option>
-                    <option value="power laces">power laces</option>
-                    <option value="time circuits">time circuits</option>
-                    <option value="low voltage reactor">low voltage reactor</option>
-                    <option value="warp equalizer">warp equalizer</option>
-                </select>
-            </fieldset><br>
+                    <select name="subject" id="subject" required>
+                        <option value="" disabled selected>Select a Product ...</option>
+                        <option value="flux capacitor">flux capacitor</option>
+                        <option value="power laces">power laces</option>
+                        <option value="time circuits">time circuits</option>
+                        <option value="low voltage reactor">low voltage reactor</option>
+                        <option value="warp equalizer">warp equalizer</option>
+                    </select>
+                </fieldset><br>
 
                 <fieldset>
                     <legend>Overall Rating</legend>
                     <div class="form1">
                         <div class="form2" id="form3">
                             <label for="task1">✩</label>
-                            <input type="radio" id="task1" name="task" value="task">
+                            <input type="radio" id="task1" name="task" value="1" required>
                         </div>
                         <div class="form2">
                             <label for="task2">✩✩</label>
-                            <input type="radio" id="task2" name="task" value="task">
+                            <input type="radio" id="task2" name="task" value="2" required>
                         </div>
                         <div class="form2">
                             <label for="task3">✩✩✩</label>
-                            <input type="radio"  id="task3" name="task" value="task">
+                            <input type="radio" id="task3" name="task" value="3" required>
                         </div>
                         <div class="form2">
                             <label for="task4">✩✩✩✩</label>
-                            <input type="radio" id="task4" name="task" value="task">
+                            <input type="radio" id="task4" name="task" value="4" required>
                         </div>
                         <div class="form2">
                             <label for="task5">✩✩✩✩✩</label>
-                            <input type="radio" id="task5" name="task" value="task">
+                            <input type="radio" id="task5" name="task" value="5" required>
                         </div>
                     </div>
                 </fieldset><br>
@@ -62,7 +71,7 @@
 
                 <fieldset>
                     <legend>Which features did you find useful in the product?<br>
-                        (Check all  that apply)
+                        (Check all that apply)
                     </legend>
                     <div class="checkbox1">
                         <div class="checkbox2">
@@ -82,8 +91,8 @@
                             <label for="checkbox9">Design</label>
                         </div>
                     </div>
-                    </fieldset><br>
-                
+                </fieldset><br>
+
                 <fieldset>
                     <label for="text1">Written Review (Optional)</label><br>
                     <textarea name="text" id="text1"></textarea>
@@ -97,7 +106,7 @@
                 <div class="button1">
                     <button type="submit">Post Review</button>
                 </div>
-            </form>    
+            </form>
         </div>
     </main>
     <footer>
@@ -107,4 +116,5 @@
         </div>
     </footer>
 </body>
+
 </html>
