@@ -1,0 +1,119 @@
+:root {
+    --primary-bg: #FAFAFA;
+    --primary-accent: #007BFF;
+    --secondary-accent: #FF6F61;
+    --text-color: #333333;
+    --secondary-text: #6C757D;
+    --header-footer-bg: #2C3E50;
+    --button-active: #28A745;
+    --light-accent-bg: #EAEAEA;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+}
+
+header, footer {
+    background-color: var(--header-footer-bg);
+    color: white;
+    padding: 1rem;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    border-radius: 75px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: none;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: var(--primary-accent);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#menu:hover {
+    background-color: var(--secondary-accent);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: var(--button-active);
+    border-radius: 5px;
+}
+
+.mission-vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.mission-vision img {
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.section1 {
+    background-color: var(--light-accent-bg);
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.logo-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.images-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.images-footer img {
+    width: 50px;
+    height: auto;
+}
+
+footer a {
+    color: var(--primary-accent);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--secondary-accent);
+}
